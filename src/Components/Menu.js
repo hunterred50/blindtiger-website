@@ -16,7 +16,7 @@ class Menu extends Component {
           <Nav>
             <Nav.Link className="navtext" href="#music">MUSIC</Nav.Link>
             <Nav.Link className="navtext" href="#tour">TOUR</Nav.Link>
-            <NavDropdown title="Inspiration" id="collasible-nav-dropdown">
+            <NavDropdown alignRight title="Inspiration" id="collasible-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Youtube Poop Playlist</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">Musical Inspiration</NavDropdown.Item>
             </NavDropdown>

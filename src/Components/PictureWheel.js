@@ -5,13 +5,13 @@ class PictureWheel extends Component {
   render() {
     return (
       <Carousel>
-        <Carousel.Item>
+        {/* <Carousel.Item>
           <img
             className="d-block w-100"
             src="https://gdurl.com/iLQF"
             alt="First slide"
           />
-        </Carousel.Item>
+        </Carousel.Item> */}
         <Carousel.Item>
           <img
             className="d-block w-100"
