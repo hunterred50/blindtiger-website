@@ -5,24 +5,24 @@ class PictureWheel extends Component {
   render() {
     return (
       <Carousel>
-        {/* <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="https://gdurl.com/iLQF"
-            alt="First slide"
-          />
-        </Carousel.Item> */}
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://gdurl.com/LHRi"
-            alt="Third slide"
+            src="https://gdurl.com/tdZk"
+            alt="First slide"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100"
             src="https://gdurl.com/ZUTLi"
+            alt="Third slide"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src="https://gdurl.com/LHRi"
             alt="Third slide"
           />
         </Carousel.Item>
