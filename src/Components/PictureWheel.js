@@ -9,13 +9,6 @@ class PictureWheel extends Component {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://gdurl.com/dPJy"
-            alt="First slide"
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
             src="https://gdurl.com/ZUTLi"
             alt="Third slide"
           />
