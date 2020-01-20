@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-
+import '../App.css';
 class PictureWheel extends Component {
+  
   render() {
     return (
       <Carousel>
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://gdurl.com/tdZk"
+            src="https://gdurl.com/dPJy"
             alt="First slide"
           />
         </Carousel.Item>

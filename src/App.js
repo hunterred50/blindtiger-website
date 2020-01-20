@@ -3,6 +3,7 @@ import Menu from './Components/Menu';
 import PictureWheel from './Components/PictureWheel';
 import Music from './Components/Music';
 import Tour from './Components/Tour';
+import Merch from './Components/Merch';
 import './App.css';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <PictureWheel />
       <Music />
       <Tour />
+      <Merch />
     </div>
   );
 }
