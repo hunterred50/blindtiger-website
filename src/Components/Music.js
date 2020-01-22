@@ -5,7 +5,7 @@ class Music extends Component {
   render() {
     return (
       // <Transition>
-      <div className="container" id="music">
+      <div className="container" id="music"style={{paddingTop: '50px'}}>
         <h1>Music</h1><p></p>
         <iframe title="Lock the Gate" src="https://open.spotify.com/embed/album/2K8GFA0sQhnHFAZQxvgDeF" width="75%" height="390" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
         <p></p><p></p>

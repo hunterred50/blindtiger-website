@@ -10,7 +10,7 @@ class Merch extends Component {
 
   render() {
     return (
-      <div className="container" id="merch" style={{paddingBottom: '50px'}}>
+      <div className="container" id="merch" style={{paddingBottom: '70px'}}>
         <h1>Merch</h1><p><i>coming soon...</i></p>
         <p></p><p></p><p></p>
       </div>
