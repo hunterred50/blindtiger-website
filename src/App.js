@@ -2,6 +2,7 @@ import React from 'react';
 import Menu from './Components/Menu';
 import PictureWheel from './Components/PictureWheel';
 import Music from './Components/Music';
+import Vids from './Components/Vids'
 import Tour from './Components/Tour';
 import Merch from './Components/Merch';
 import './App.css';
@@ -13,6 +14,7 @@ function App() {
       <Menu />
       <PictureWheel />
       <Music />
+      <Vids />
       <Tour />
       <Merch />
     </div>
