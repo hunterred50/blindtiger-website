@@ -22,11 +22,11 @@ class Menu extends Component {
    }
  }
 
-  render() {
-    const opacity = Math.min(100 / this.state.currentScrollHeight  , 1);
+  render() { //        uncomment and comment out in app.css
+    const opacity = .7//Math.min(100 / this.state.currentScrollHeight  , 1);
 
     return (
-      <div style={{opacity}} id='Menu'>
+      <div id='Menu'>
         <Navbar collapseOnSelect fixed="top" expand="sm" variant="dark">
           <Navbar.Brand href="#home"><img src="https://gdurl.com/HWaN" alt="" height="25em"/>Blind Tiger</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />

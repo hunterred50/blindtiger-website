@@ -10,7 +10,7 @@
   border: 0;
   font-size: 15px !important;
   letter-spacing: 4px;
-  opacity: 0.7; 
+  opacity: .7; 
 
   position: fixed; /* <-- Added */
   top: 50;
