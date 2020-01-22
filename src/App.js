@@ -5,6 +5,7 @@ import Music from './Components/Music';
 import Tour from './Components/Tour';
 import Merch from './Components/Merch';
 import './App.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
