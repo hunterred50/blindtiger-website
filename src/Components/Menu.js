@@ -16,14 +16,14 @@ class Menu extends Component {
   componentDidMount () {      
     window.onscroll = () => {
      const newScrollHeight = Math.ceil(window.scrollY / 50) *50;
-     if (this.state.currentScrollHeight != newScrollHeight){
+     if (this.state.currentScrollHeight !== newScrollHeight){
          this.setState({currentScrollHeight: newScrollHeight})
      }
    }
  }
 
   render() { //        uncomment and comment out in app.css
-    const opacity = .7//Math.min(100 / this.state.currentScrollHeight  , 1);
+    // const opacity = .7//Math.min(100 / this.state.currentScrollHeight  , 1);
 
     return (
       <div id='Menu'>
