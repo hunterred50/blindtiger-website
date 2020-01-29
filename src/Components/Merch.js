@@ -11,7 +11,7 @@ class Merch extends Component {
   render() {
     return (
       <div className="container" id="merch" style={{paddingBottom: '70px'}}>
-        <h1>Merch</h1><p><i>coming soon...</i></p>
+        <h1>Merch</h1><p><i><a href="https://blindtigermerch.square.site/s/shop">CLICK HERE TO VISIT THE TIGER STORE</a></i></p>
         <p></p><p></p><p></p>
       </div>
     )
