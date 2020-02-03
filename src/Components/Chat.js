@@ -11,7 +11,7 @@ function randomName() {
     "blue", "poopoo"
   ];
   const nouns = [
-    "tiger", "toner", "toiger", "toffee", "tibber", "peepee"
+    "tiger", "toner", "toiger", "toffee", "tibber", "tyler", "peepee"
   ];
   const adjective = adjectives[Math.floor(Math.random() * adjectives.length)];
   const noun = nouns[Math.floor(Math.random() * nouns.length)];
