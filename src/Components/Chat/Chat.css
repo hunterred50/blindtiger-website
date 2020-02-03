@@ -11,6 +11,7 @@
   height: 100%; */
   opacity: 90%;
   background-size: 100%;
+  z-index: 3;
 }
 
 .Chat-header {
