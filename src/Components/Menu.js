@@ -3,7 +3,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 // import NavDropdown from 'react-bootstrap/NavDropdown';
 import '../App.css';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 class Menu extends Component {
   constructor() {
@@ -24,7 +24,6 @@ class Menu extends Component {
 
   render() { //        uncomment and comment out in app.css
     // const opacity = .7//Math.min(100 / this.state.currentScrollHeight  , 1);
-
     return (
       <div id='Menu'>
         <Navbar collapseOnSelect fixed="top" expand="sm" variant="dark">
@@ -35,6 +34,7 @@ class Menu extends Component {
               <Nav.Link className="navtext" href="#music">MUSIC</Nav.Link>
               <Nav.Link className="navtext" href="#tour">TOUR</Nav.Link>
               <Nav.Link className="navtext" href="https://blindtigermerch.square.site/s/shop">MERCH</Nav.Link>
+              <Nav.Link className="navtext" href="#chat">TIGER CHAT</Nav.Link>
               {/* <Nav.Link className="navtext" href=""><Link to="./chat">TIGER CHAT</Link></Nav.Link> */}
               {/* <NavDropdown alignRight title="Inspiration" id="collasible-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Youtube Poop Playlist</NavDropdown.Item>

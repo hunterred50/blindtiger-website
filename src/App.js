@@ -5,6 +5,7 @@ import Music from './Components/Music';
 import Vids from './Components/Vids'
 import Tour from './Components/Tour';
 import Merch from './Components/Merch';
+import Chat from './Components/Chat';
 import './App.css';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -17,6 +18,9 @@ function App() {
       <Vids />
       <Tour />
       <Merch />
+      <div className="container">
+        <Chat />
+      </div>
     </div>
   );
 }
