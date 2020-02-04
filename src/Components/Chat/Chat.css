@@ -15,9 +15,10 @@
 }
 
 .Chat-header {
-  background-color: #525252;
+  background-color: #525252d2;
   background-blend-mode: multiply;
-  opacity: 70%;
+  letter-spacing: .8em;
+  font-style: italic;
   overflow: visible;
   width: 100%;
   text-align: center;
