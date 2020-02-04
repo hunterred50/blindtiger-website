@@ -10,7 +10,7 @@ class Vids extends Component {
 
   render() {
     return (
-      <div className="container" id="vids" style={{paddingBottom: '70px'}}>
+      <div className="container" id="vids">
         <h1>Vids</h1>
         <p style={{paddingTop:'20px'}}></p>
         <iframe title="inTheFuture" width="100%" height="315" src="https://www.youtube.com/embed/XLlM3NzrcKU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen />
