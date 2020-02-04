@@ -6,11 +6,11 @@
 .navbar {
   font-family: Montserrat, sans-serif;
   margin-bottom: 0;
-  background-color: #2d2d30;
+  background-color: #2d2d30bd;
   border: 0;
   font-size: 15px !important;
   letter-spacing: 4px;
-  opacity: .7; 
+  opacity: 1; 
 
   position: fixed; /* <-- Added */
   top: 50;
@@ -35,7 +35,7 @@
   background-color: #2d2d30;
   width: 100%;
   color: #cacacf;
-  padding-top: 20px;
+  padding-top: 100px;
   padding-bottom: 20px;
 }
 
