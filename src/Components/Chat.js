@@ -54,17 +54,19 @@ class Chat extends Component {
 
   render() {
     return (
-      <div className="Chat" id="chat">
-        <div className="Chat-header">
-          <h1><img src="https://gdurl.com/HWaN" alt="" height="30em"/> Tiger Chat <img src="https://gdurl.com/HWaN" alt="" height="30em"/></h1>
+      <div className="container" id="chat">
+        <div className="Chat">
+          <div className="Chat-header">
+            <h1><img src="https://gdurl.com/HWaN" alt="" height="30em"/> Tiger Chat <img src="https://gdurl.com/HWaN" alt="" height="30em"/></h1>
+          </div>
+          <Messages
+            messages={this.state.messages}
+            currentMember={this.state.member}
+          />
+          <Input
+            onSendMessage={this.onSendMessage}
+          />
         </div>
-        <Messages
-          messages={this.state.messages}
-          currentMember={this.state.member}
-        />
-        <Input
-          onSendMessage={this.onSendMessage}
-        />
       </div>
     );
   }

@@ -46,12 +46,12 @@ class Menu extends Component {
               </NavDropdown> */}
             </Nav>
           </Navbar.Collapse>
-          <Navbar.Collapse className="justify-content-end">
+          {/* <Navbar.Collapse className="justify-content-end"> */}
             <SocialIcon url="https://www.facebook.com/blindtigerfl" target="_blank" style={iconStyles}/>
             <SocialIcon url="https://www.instagram.com/blindtigerfl/" target="_blank" style={iconStyles}/>
             <SocialIcon url="https://www.youtube.com/channel/UC52mgaOR97hPqf6Jt9NpSsA" target="_blank" style={iconStyles}/>
             <SocialIcon url="https://open.spotify.com/artist/5GAcYozpFbL4ImPvwTH1Jn" target="_blank" style={iconStylesEnd}/>
-          </Navbar.Collapse>
+          {/* </Navbar.Collapse> */}
         </Navbar>
       </div>
     )
