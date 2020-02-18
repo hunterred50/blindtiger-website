@@ -4,6 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 // import NavDropdown from 'react-bootstrap/NavDropdown';
 import { SocialIcon } from 'react-social-icons';
 import '../App.css';
+import { Breakpoint } from 'react-socks';
 // import { Link } from 'react-router-dom';
 
 const iconStyles = {width: "2em", height: "2em", margin: ".5em"};
@@ -46,12 +47,12 @@ class Menu extends Component {
               </NavDropdown> */}
             </Nav>
           </Navbar.Collapse>
-          {/* <Navbar.Collapse className="justify-content-end"> */}
+          <Breakpoint large up>
             <SocialIcon url="https://www.facebook.com/blindtigerfl" target="_blank" style={iconStyles}/>
             <SocialIcon url="https://www.instagram.com/blindtigerfl/" target="_blank" style={iconStyles}/>
             <SocialIcon url="https://www.youtube.com/channel/UC52mgaOR97hPqf6Jt9NpSsA" target="_blank" style={iconStyles}/>
             <SocialIcon url="https://open.spotify.com/artist/5GAcYozpFbL4ImPvwTH1Jn" target="_blank" style={iconStylesEnd}/>
-          {/* </Navbar.Collapse> */}
+          </Breakpoint>
         </Navbar>
       </div>
     )

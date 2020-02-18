@@ -7,15 +7,17 @@ import Tour from './Components/Tour';
 import Merch from './Components/Merch';
 import Chat from './Components/Chat';
 import './App.css';
-// import 'bootstrap/dist/css/bootstrap.min.css';
+import { Breakpoint, BreakpointProvider } from 'react-socks'
 
 class App extends Component {
   render() {
     return (
       <div className="App" id="home">
-        <Menu />
-        <PictureWheel />
-        <Music />
+        <BreakpointProvider>
+          <Menu />
+          <PictureWheel />
+          <Music />
+        </BreakpointProvider>
         <Vids />
         <Tour />
         <Merch />
