@@ -6,6 +6,7 @@ import Vids from './Components/Vids'
 import Tour from './Components/Tour';
 import Merch from './Components/Merch';
 import Chat from './Components/Chat';
+import Footer from './Components/Footer';
 import './App.css';
 import { Breakpoint, BreakpointProvider } from 'react-socks'
 
@@ -22,6 +23,7 @@ class App extends Component {
         <Tour />
         <Merch />
         <Chat />
+        <Footer />
       </div>
     );
   }
