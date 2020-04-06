@@ -35,7 +35,7 @@ class Menu extends Component {
           <Navbar.Brand href="#home"><img src="https://gdurl.com/HWaN" alt="" height="25em"/> Blind Tiger</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav justify style={{backgroundColor: "#2d2d3000"}} className="navbar">
+            <Nav justify style={{backgroundColor: "#2d2d30cc", paddingLeft: "15px"}} className="navbar">
               <Nav.Link href="#music">MUSIC</Nav.Link>
               <Nav.Link href="#vids">VIDS</Nav.Link>
               <Nav.Link className="navtext" href="#tour">TOUR</Nav.Link>
