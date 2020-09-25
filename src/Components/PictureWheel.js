@@ -10,7 +10,7 @@ class PictureWheel extends Component {
   
   render() {
     return (
-      <div style={{lineHeight: 0}}>
+      <div className="backg" style={{lineHeight: 0}}>
         <Carousel>
           <Carousel.Item>
             <img
