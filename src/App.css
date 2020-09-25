@@ -3,6 +3,10 @@
   background-color: #2d2d30;
 }
 
+.navb {
+  opacity: .5;
+}
+
 .navbar {
   font-family: Montserrat, sans-serif;
   margin-bottom: 0;

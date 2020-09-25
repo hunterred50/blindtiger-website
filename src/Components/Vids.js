@@ -17,11 +17,11 @@ class Vids extends Component {
             <p style={{paddingTop:'20px'}}></p>
             <iframe title="inTheFuture" width="100%" height="315" src="https://www.youtube.com/embed/XLlM3NzrcKU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen />
             <p style={{paddingTop:'20px'}}></p>
-            <iframe title="littleRoom2018" width="100%" height="315" src="https://www.youtube.com/embed/MkTeVukUPdw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen />
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/O2l64tw71Rk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen />
             <p style={{paddingTop:'20px'}}></p>
-            <iframe title="whatIsThis" width="100%" height="315" src="https://www.youtube.com/embed/_bOE20PcIfI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen />
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/PWpv0sTZ8RY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen />
             <p style={{paddingTop:'20px'}}></p>
-            <iframe title="nashville" width="100%" height="315" src="https://youtube.com/embed/f9eosD8fNuY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen />
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/ntAIuBVmMR4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen />
           </div>
         </div>
       </div>

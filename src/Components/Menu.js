@@ -31,11 +31,11 @@ class Menu extends Component {
     // const opacity = .7//Math.min(100 / this.state.currentScrollHeight  , 1);
     return (
       <div id='Menu'>
-        <Navbar collapseOnSelect fixed="top" expand="sm" variant="dark">
+        <Navbar collapseOnSelect fixed="top" expand="sm" variant="dark" style={{position: "sticky", position: "-webkit-sticky"}}>
           <Navbar.Brand href="#home"><img src="https://gdurl.com/HWaN" alt="" height="25em"/> Blind Tiger</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav justify style={{backgroundColor: "#2d2d30cc", paddingLeft: "15px"}} className="navbar">
+            <Nav justify style={{backgroundColor: "#2d2d30cc", paddingLeft: "15px"}} className="navb">
               <Nav.Link href="#music">MUSIC</Nav.Link>
               <Nav.Link href="#vids">VIDS</Nav.Link>
               <Nav.Link className="navtext" href="#tour">TOUR</Nav.Link>
