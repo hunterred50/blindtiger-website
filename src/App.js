@@ -18,12 +18,12 @@ class App extends Component {
           <Menu />
           <PictureWheel />
           <Music />
+          <Vids />
+          <Tour />
+          <Merch />
+          <Chat />
+          <Footer />
         </BreakpointProvider>
-        <Vids />
-        <Tour />
-        <Merch />
-        <Chat />
-        <Footer />
       </div>
     );
   }
