@@ -5,7 +5,7 @@ class Music extends Component {
   render() {
     return (
       // <Transition>
-      <div style={{backgroundImage: 'url("https://gdurl.com/mvlO")', backgroundPosition: 'center', backgroundAttachment: 'fixed'}}/*style={{backgroundImage: 'url("https://gdurl.com/tl3V")', backgroundPosition: 'center right', objectPosition: "5em 5em", backgroundAttachment: 'fixed'}}*/>
+      <div style={{backgroundImage: 'url("https://gdurl.com/hGJK")', backgroundPosition: 'center', backgroundAttachment: 'fixed'}}/*style={{backgroundImage: 'url("https://gdurl.com/tl3V")', backgroundPosition: 'center right', objectPosition: "5em 5em", backgroundAttachment: 'fixed'}}*/>
         <div style={{backgroundColor: 'black', opacity: 0.8, paddingTop: 100, paddingBottom: 70}}>
           <div className="container" id="music" style={{opacity: 1}}>
             <h1>Music</h1><p></p>

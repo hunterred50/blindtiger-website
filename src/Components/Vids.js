@@ -10,7 +10,7 @@ class Vids extends Component {
 
   render() {
     return (
-      <div style={{backgroundImage: 'url("https://gdurl.com/mvlO")', backgroundPosition: 'center', backgroundAttachment: 'fixed'}}>
+      <div style={{backgroundImage: 'url("https://gdurl.com/hGJK")', backgroundPosition: 'center', backgroundAttachment: 'fixed'}}>
         <div style={{backgroundColor: 'black', opacity: 0.8, paddingTop: 100, paddingBottom: 70}}>
           <div className="container" id="vids" style={{opacity: 1, zIndex: 3}}>
             <h1>Vids</h1>

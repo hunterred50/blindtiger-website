@@ -19,7 +19,7 @@ class Tour extends Component {
 
   render() {
     return (
-      <div style={{backgroundImage: 'url("https://gdurl.com/mvlO")', backgroundPosition: 'center', backgroundAttachment: 'fixed'}}/*style={{backgroundImage: 'url("https://gdurl.com/mvlO")', backgroundPosition: 'center'}}*/>
+      <div style={{backgroundImage: 'url("https://gdurl.com/hGJK")', backgroundPosition: 'center', backgroundAttachment: 'fixed'}}/*style={{backgroundImage: 'url("https://gdurl.com/mvlO")', backgroundPosition: 'center'}}*/>
         <div style={{backgroundColor: 'black', opacity: 0.8, paddingTop: 100, paddingBottom: 70}}>
           <div className="container" id="tour">
             <h1>Tour</h1><p></p>
