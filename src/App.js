@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Menu from './Components/Menu';
-import PictureWheel from './Components/PictureWheel';
+import Hero from './Components/Hero';
+// import PictureWheel from './Components/PictureWheel';
 import Music from './Components/Music';
 import Vids from './Components/Vids'
 import Tour from './Components/Tour';
@@ -8,7 +9,7 @@ import Merch from './Components/Merch';
 import Chat from './Components/Chat';
 import Footer from './Components/Footer';
 import './App.css';
-import { Breakpoint, BreakpointProvider } from 'react-socks'
+import { BreakpointProvider } from 'react-socks'
 
 class App extends Component {
   render() {
@@ -16,12 +17,12 @@ class App extends Component {
       <div className="App" id="home">
         <BreakpointProvider>
           <Menu />
-          <PictureWheel />
+          <Hero />
           <Music />
           <Vids />
           <Tour />
           <Merch />
-          <Chat />
+          {/* <Chat /> */}
           <Footer />
         </BreakpointProvider>
       </div>

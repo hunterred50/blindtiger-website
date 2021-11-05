@@ -20,15 +20,15 @@
 }
 
 .navb {
-  opacity: .5;
+  opacity: 1;
 }
 
 .navbar {
   font-family: Montserrat, sans-serif;
   margin-bottom: 0;
-  background-color: #2d2d30bd;
+  background-color: black; /* #2d2d30; */
   border: 0;
-  font-size: 15px !important;
+  font-size: 13px !important;
   letter-spacing: 4px;
   opacity: 1; 
 
@@ -52,7 +52,7 @@
   margin: 100;
   margin-top: 0em;
   height: 100%;
-  background-color: #2d2d30;
+  background-color: #2b2b2bd0;
   width: 100%;
   color: #cacacf;
   padding-top: 30px;
@@ -61,4 +61,23 @@
 
 .tabl {
   table-layout: fixed;
+}
+
+h1 {
+  font-family: 'Special Elite', cursive;
+}
+
+.herobutt {
+  padding-top: 8px;
+  width: 16vw;
+  height: 3vw;
+  border-radius: 0px;
+  background-color: rgba(255, 0, 0, 0);
+  border: 3px solid #b90707;
+  font-family: 'Special Elite', cursive;
+  font-size: 1.7vw;
+}
+
+.herobutt:hover {
+  background-color: #b90707;
 }
