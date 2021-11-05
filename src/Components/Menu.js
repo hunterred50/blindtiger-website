@@ -54,6 +54,7 @@ class Menu extends Component {
             <SocialIcon url="https://open.spotify.com/artist/5GAcYozpFbL4ImPvwTH1Jn" target="_blank" style={iconStylesEnd}/>
           </Breakpoint>
         </Navbar>
+        <Breakpoint small down><div style={{height: "70px", backgroundColor: "black"}}/></Breakpoint>
       </div>
     )
   }
