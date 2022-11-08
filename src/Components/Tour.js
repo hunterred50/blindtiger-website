@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-
 class Tour extends Component {
   constructor() {
     super()
@@ -19,7 +18,7 @@ class Tour extends Component {
 
   render() {
     return (
-      <div style={{backgroundImage: 'url("https://gdurl.com/hGJK")', backgroundPosition: 'center', backgroundAttachment: 'fixed'}}/*style={{backgroundImage: 'url("https://gdurl.com/mvlO")', backgroundPosition: 'center'}}*/>
+      <div style={{backgroundImage: 'url("https://gdurl.com/749T")', backgroundPosition: 'center', backgroundAttachment: 'fixed'}}/*style={{backgroundImage: 'url("https://gdurl.com/mvlO")', backgroundPosition: 'center'}}*/>
         <div style={{backgroundColor: "rgba(0, 0, 0, .8)", paddingTop: 100, paddingBottom: 70}}>
           <div className="container" id="tour">
             <h1>Tour</h1><p></p>
