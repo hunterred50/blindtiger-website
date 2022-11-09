@@ -15,21 +15,21 @@ class Hero extends Component {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="https://gdurl.com/uv72"
+              src="https://gdurl.com/U6jR"
               alt="Third slide"
             />
           </Carousel.Item>
         </Carousel>
         <Breakpoint large up>
-          <img style={{position: "absolute", top: "13vw", left: "18vw", height: "27vw"}} alt="ep art" src="https://gdurl.com/InHK" />
-          <h1 style={{position: "absolute", top: "18vw", left: "53vw", color: "#eaeaea", textAlign: "right"}}><div style={{fontSize: "4vw"}}>Blind Tiger</div><div style={{fontSize: "3.2vw"}}>self-titled EP <br/>OUT NOW</div></h1>
-          <a style={{position: "absolute", top: "33vw", left: "61vw", color: "#eaeaea"}} target="_blank" rel="noopener noreferrer" href="https://blindtigerfl.bandcamp.com/album/blind-tiger"><button className="herobutt">listen here</button></a>
+          <img style={{position: "absolute", top: "13vw", left: "18vw", height: "27vw"}} alt="ep art" src="https://gdurl.com/749T" />
+          <h1 style={{position: "absolute", top: "18vw", left: "53vw", color: "#black", textAlign: "right"}}><div style={{fontSize: "4vw"}}>Blind Tiger</div><div style={{fontSize: "3.2vw"}}>is ON THE ROAD</div></h1>
+          <a style={{position: "absolute", top: "28vw", left: "61vw", color: "#black", cursor: "pointer"}} target="_blank" rel="noopener noreferrer" href="#tour"><button className="herobutt">see us live</button></a>
           <br/>
         </Breakpoint>
         <Breakpoint medium down>
-          <img style={{position: "absolute", top: "20vw", left: "18vw", height: "27vw"}} alt="ep art" src="https://gdurl.com/InHK" />
-          <h1 style={{position: "absolute", top: "25vw", left: "53vw", color: "#eaeaea", textAlign: "right"}}><div style={{fontSize: "4vw"}}>Blind Tiger</div><div style={{fontSize: "3.2vw"}}>self-titled EP <br/>OUT NOW</div></h1>
-          <a style={{position: "absolute", top: "40vw", left: "60vw", color: "#eaeaea"}} target="_blank" rel="noopener noreferrer" href="https://blindtigerfl.bandcamp.com/album/blind-tiger"><button className="herobutt">listen here</button></a>
+          <img style={{position: "absolute", top: "20vw", left: "18vw", height: "27vw"}} alt="ep art" src="https://gdurl.com/749T" />
+          <h1 style={{position: "absolute", top: "25vw", left: "53vw", color: "#black", textAlign: "right"}}><div style={{fontSize: "4vw"}}>Blind Tiger</div><div style={{fontSize: "3.2vw"}}>is ON THE ROAD</div></h1>
+          <a style={{position: "absolute", top: "35vw", left: "60vw", color: "#black", cursor: "pointer"}} target="_blank" rel="noopener noreferrer" href="#tour"><button className="herobutt">see us live</button></a>
           <br/>
 
           <SocialIcon url="https://www.facebook.com/blindtigerfl" target="_blank" style={iconStyles}/>

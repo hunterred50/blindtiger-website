@@ -6,7 +6,7 @@ import Music from './Components/Music';
 import Vids from './Components/Vids'
 import Tour from './Components/Tour';
 import Merch from './Components/Merch';
-import Chat from './Components/Chat';
+// import Chat from './Components/Chat';
 import Footer from './Components/Footer';
 import './App.css';
 import { BreakpointProvider } from 'react-socks'
