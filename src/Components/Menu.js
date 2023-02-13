@@ -31,7 +31,7 @@ class Menu extends Component {
     // const opacity = .7//Math.min(100 / this.state.currentScrollHeight  , 1);
     return (
       <div id='Menu'>
-        <Navbar collapseOnSelect fixed="top" expand="sm" variant="dark" style={{position: "sticky -webkit-sticky", height: "5vw"}}>
+        <Navbar collapseOnSelect fixed="top" expand="md" variant="dark" style={{position: "sticky -webkit-sticky", height: "5vw"}}>
           <Navbar.Brand href="#home"><img src="https://gdurl.com/rE1l" alt="" height="40vw" style={{paddingLeft: "70px"}}/></Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
